@@ -1,0 +1,19 @@
+.gallery__cards {
+    font-family: "inter", Arial, Helvetica, sans-serif;
+    padding: 15px 0 36px;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    gap: 20px 18px;
+    list-style-type: none;
+    margin: 0;
+}
+
+@media screen and (max-width: 568px)  {
+    .gallery__cards {
+        padding: 0;
+        align-items: center;
+        justify-items: center;
+    }
+}
