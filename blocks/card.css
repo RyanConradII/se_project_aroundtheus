@@ -38,8 +38,8 @@
 }
 
 .card__like-button:hover {
-  width: 20;
-  height: 18;
+  width: 20px;
+  height: 18px;
   top: 624px;
   left: 228px;
   opacity: 50%;
