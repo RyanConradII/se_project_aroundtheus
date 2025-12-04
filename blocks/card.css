@@ -31,19 +31,25 @@
   background-repeat: no-repeat;
   width: 20px;
   height: 18px;
-  top: 624px;
-  left: 228px;
   border: none;
   background-color: #fff;
 }
 
 .card__like-button:hover {
-  width: 20px;
-  height: 18px;
-  top: 624px;
-  left: 228px;
   opacity: 50%;
-  color: #000;
+}
+
+.cards {
+  font-family: "inter", Arial, sans-serif;
+  padding: 15px 0 36px;
+}
+
+.cards__list {
+  display: grid;
+  justify-content: center;
+  grid-template-columns: repeat(auto-fit, 282px);
+  grid-gap: 20px 17px;
+  padding: 0;
 }
 
 @media screen and (max-width: 568px) {

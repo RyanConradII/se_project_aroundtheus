@@ -66,7 +66,7 @@
   grid-area: title;
   margin: 0;
   padding: 0;
-  max-width: 375px;
+  max-width: 415px;
   text-overflow: ellipsis;
   white-space: nowrap;
   overflow: hidden;
@@ -93,7 +93,7 @@
   margin-right: 24px;
 }
 
-@media screen and (max-width: 480px) {
+@media screen and (max-width: 727px) {
   .profile {
     flex-direction: column;
   }
@@ -116,7 +116,7 @@
   }
 }
 
-@media screen and (max-width: 727px) {
+@media screen and (max-width: 480px) {
   .profile {
     flex-direction: column;
   }
