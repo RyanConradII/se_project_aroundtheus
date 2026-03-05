@@ -7,7 +7,7 @@
 .profile__info {
   display: grid;
   grid-template-areas: "title button" "description description";
-  grid-template-columns: minmax(auto, 373px) auto;
+  grid-template-columns: minmax(auto, 375px) auto;
   grid-gap: 7px 15px;
   align-items: center;
   max-width: 415px;
@@ -96,6 +96,7 @@
 @media screen and (max-width: 727px) {
   .profile {
     flex-direction: column;
+    padding: 40px 20px 0;
   }
 
   .profile__info {
@@ -103,6 +104,11 @@
     flex-wrap: wrap;
     justify-content: center;
     width: 100%;
+    margin: 40px auto;
+  }
+
+  .profile__title {
+    font-size: 32px;
   }
 
   .profile__description {
@@ -119,6 +125,7 @@
 @media screen and (max-width: 480px) {
   .profile {
     flex-direction: column;
+    margin-bottom: 40px;
   }
 
   .profile__info {
@@ -128,9 +135,14 @@
     width: 100%;
   }
 
+  .profile__title {
+    font-size: 22px;
+  }
+
   .profile__description {
     width: 100%;
     text-align: center;
+    font-size: 14px;
   }
 
   .profile__add-button {

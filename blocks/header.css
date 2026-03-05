@@ -1,18 +1,19 @@
 .header {
-  padding: 45px 41px;
+  padding: 30px;
   max-width: 880px;
   border-bottom: 1px solid #545454;
 }
 
 @media screen and (max-width: 880px) {
   .header__logo {
-    padding: 45px;
+    width: 173px;
+    height: auto;
   }
 }
 
 @media screen and (max-width: 480px) {
   .header__logo {
-    padding: 45px;
-    max-width: 50%;
+    width: 126px;
+    height: auto;
   }
 }
